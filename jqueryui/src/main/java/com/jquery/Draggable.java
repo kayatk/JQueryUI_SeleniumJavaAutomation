@@ -13,7 +13,7 @@ public class Draggable {
         driver.get("https://jqueryui.com/draggable");
 
         Actions action = new Actions(driver);
-        driver.switchTo().frame("demo-frame");
+        driver.switchTo().frame(0);
         WebElement ele = driver.findElement(By.xpath("//div[@id='draggable']"));
        // WebElement frame =driver.findElement(By.xpath("//iframe[@class='demo-frame']"));
         
