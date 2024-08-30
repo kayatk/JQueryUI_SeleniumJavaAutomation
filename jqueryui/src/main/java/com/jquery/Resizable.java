@@ -9,5 +9,7 @@ public class Resizable {
         driver.manage().window();
         driver.get("https://jqueryui.com/resizable/");
         driver.switchTo().frame(0);
+
+        driver.quit();
     }
 }
